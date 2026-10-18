@@ -4,6 +4,8 @@ An optimization course project on portfolio allocation under downside risk, with
 
 This is the portfolio edition maintained by [miracl-3](https://github.com/miracl-3). The project was developed collaboratively in [JarvisHunter/optimization_final_project](https://github.com/JarvisHunter/optimization_final_project). The original commit history and contributor attribution are preserved.
 
+**Final report:** [Portfolio Optimization using Conditional Value-at-Risk](reports/Optimization_Final_Project_Report.pdf) (PDF, 23 pages).
+
 ![Out-of-sample cumulative portfolio wealth](figures/cumulative_wealth.png)
 
 ## Methods
@@ -69,6 +71,7 @@ python task1_adam.py
 | `task1_adam.py` | Adaptive Adam optimizer and benchmark examples |
 | `Data/stock_data.csv` | Historical price snapshot |
 | `figures/` | Saved exploratory analysis and portfolio comparison figures |
+| `reports/Optimization_Final_Project_Report.pdf` | Final project report |
 | `Optimization_Project_Problem1.pdf` | Original information sheet for the optimizer task |
 
 ## Interpretation and reproducibility
