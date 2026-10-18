@@ -2,7 +2,7 @@
 
 An optimization course project on portfolio allocation under downside risk, with historical Conditional Value-at-Risk (CVaR) models, out-of-sample backtesting, and exploratory analysis of ten US stocks. A companion task implements an adaptive Adam optimizer for unconstrained optimization.
 
-This is the personal portfolio edition maintained by [miracl-3](https://github.com/miracl-3). The project was developed collaboratively in [JarvisHunter/optimization_final_project](https://github.com/JarvisHunter/optimization_final_project). The original commit history and contributor attribution are preserved.
+This is the portfolio edition maintained by [miracl-3](https://github.com/miracl-3). The project was developed collaboratively in [JarvisHunter/optimization_final_project](https://github.com/JarvisHunter/optimization_final_project). The original commit history and contributor attribution are preserved.
 
 ![Out-of-sample cumulative portfolio wealth](figures/cumulative_wealth.png)
 
