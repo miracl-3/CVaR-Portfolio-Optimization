@@ -49,10 +49,10 @@ python -m jupyterlab task2.ipynb
 In the notebook's configuration cell, select the bundled price snapshot to avoid downloading a changing dataset:
 
 ```python
-LOCAL_PRICE_FILE = "Data/stock_data.csv"
+LOCAL_PRICE_FILE = "data/stock_data.csv"
 ```
 
-The tracked path uses a capital **D** in `Data`, which matters on case-sensitive systems. The CSV covers May 6, 2013 through May 1, 2026. Run the notebook from its repository directory so the data and figure paths resolve correctly.
+The CSV covers May 6, 2013 through May 1, 2026. Run the notebook from its repository directory so the data and figure paths resolve correctly.
 
 Leaving `LOCAL_PRICE_FILE = None` downloads prices through `yfinance`. Set a fixed `END_DATE` if using that mode for a reproducible experiment; the archived notebook defaults to the latest available data. Running the notebook with `EXPORT_FIGURES = True` overwrites the corresponding files in `figures/`.
 
@@ -69,7 +69,7 @@ python task1_adam.py
 | `task2.ipynb` | Main portfolio optimization and backtesting notebook, with saved outputs |
 | `task2_og.ipynb` | Earlier portfolio notebook retained from the course project |
 | `task1_adam.py` | Adaptive Adam optimizer and benchmark examples |
-| `Data/stock_data.csv` | Historical price snapshot |
+| `data/stock_data.csv` | Historical price snapshot |
 | `figures/` | Saved exploratory analysis and portfolio comparison figures |
 | `reports/Optimization_Final_Project_Report.pdf` | Final project report |
 | `Optimization_Project_Problem1.pdf` | Original information sheet for the optimizer task |
